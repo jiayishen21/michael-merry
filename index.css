@@ -1,0 +1,45 @@
+body {
+	margin: 0;
+}
+
+.center-flex {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.home-container {
+	padding: 3rem;
+	border: 3px solid black;
+	max-width: 600px;
+}
+
+.research-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 8rem;
+}
+
+.research-container2 {
+	min-width: 800px;
+	max-width: 1200px;
+	margin-left: 10rem;
+	margin-right: 10rem;
+}
+
+.researches {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 1rem;
+}
+
+.researches div {
+	border: 3px solid black;
+	padding: 1rem;
+}
+
+.researches h3, h4, p {
+	margin: 0;
+	margin-bottom: 5px;
+}
